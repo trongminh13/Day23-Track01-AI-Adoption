@@ -1,1 +1,91 @@
-Case Evidence Matrix — DOMIN-H Family (AI-Mediator)1. Thông tin caseTrườngTrả lờiCase được phân tíchDOMIN-H Family — Nền tảng AI-Mediator quản lý tài chính sinh viênLoại caseCase quản trị rủi ro & đo lường giá trị thực tế (ROI)Nguồn chínhWorkshop 3 (OKR), Workshop 4 (Risk Map), Milestone 1 (Investor Package)Lý do chọn caseĐây là mô hình đặc thù "Người dùng (Sinh viên) không phải người trả tiền (Phụ huynh)". AI đóng vai trò làm trọng tài để xóa bỏ xung đột tài chính.2. AI được dùng trong workflow nào?AI tham gia trực tiếp vào luồng giao tiếp tài chính nhạy cảm giữa cha mẹ và con cái:Smart Request: Sinh viên tạo yêu cầu xin tiền. AI hỗ trợ "làm đẹp" hồ sơ bằng cách liệt kê danh mục chi tiết.Audit & Verification: AI dùng OCR quét hóa đơn, tự động đối chiếu giá thị trường để kiểm tra tính hợp lý.Mediation Report: AI tổng hợp dữ liệu thành báo cáo tóm tắt "độ tin cậy" gửi cho phụ huynh.Duyệt chi: Phụ huynh đọc báo cáo của AI và bấm "Duyệt 1 chạm" thay vì gọi điện tra khảo con cái.3. Người dùng chính là ai?Nhóm người dùngVai tròSinh viên (User)Người tạo dữ liệu, cần xin tiền nhanh, minh bạch và không muốn bị tra khảo.Phụ huynh (Payer)Người chi tiền, cần sự an tâm và kiểm soát nhưng ngại gây sứt mẻ tình cảm.AI Lead (Jimala)Người đảm bảo AI không "hallucinate" tạo án oan cho sinh viên.Nhà đầu tư (VCs)Quan tâm đến chỉ số tăng trưởng (MRR) và tỷ lệ giữ chân (Retention).4. Họ đo metric gì?MetricLoại metricÝ nghĩaTỷ lệ Smart Request qua AppActivation / HabitSinh viên có từ bỏ Zalo để dùng App xin tiền không.Doanh thu định kỳ (MRR)Value / MonetizationPhụ huynh có sẵn sàng trả 99k/tháng cho sự an tâm không.Tỷ lệ giữ chân tháng thứ 2 (M2)Retention / TrustSản phẩm có thực sự giúp gia đình bớt cãi vã lâu dài không.Tỷ lệ thu hồi bát đĩa/hóa đơnQualityAI có đọc được 100% các loại hóa đơn mờ/nát không.5. Metric đó chứng minh được gì?Các chỉ số của DOMIN-H chứng minh được mô hình AI-Mediator có khả năng thay đổi thói quen xã hội.Điều chứng minh đượcGiải thíchProduct-Market Fit (PMF)Nếu đạt 500 phụ huynh trả phí đầu tiên, chứng tỏ "nỗi lo âu" là có thật và có thể kiếm tiền.Sự hình thành thói quenMốc 60% yêu cầu qua app cho thấy sinh viên thấy app có lợi (dễ xin tiền hơn).Hiệu quả của AIViệc giảm thời gian duyệt chi chứng minh AI đã thay thế được các cuộc tra khảo kéo dài.6. Metric đó chưa chứng minh được gì?Tốc độ và doanh thu chưa phản ánh được "lòng tin" sâu sắc bên trong mối quan hệ gia đình.Chưa chứng minh đượcVì saoSự công bằng của AIAI có thể báo cáo sai (hallucination) khiến sinh viên bị mắng oan.Hòa khí gia đình thật sựPhụ huynh có dùng app để "kiểm soát cực đoan" hơn không.Độ bền của dữ liệuSinh viên có tìm cách "hack" AI (Prompt Injection) để gian lận không.7. Thiếu metric nào?Nhóm metric thiếuMetric nên bổ sungLý doQuality (Chất lượng)Tỷ lệ "Án oan" (AI Error Rate)Theo dõi số lần AI phân loại sai khiến sinh viên phản ứng.Trust (Niềm tin)Student Sentiment ScoreSinh viên coi AI là "Đồng minh" hay "Gián điệp".Risk (Rủi ro)Human Override RateSố lần phụ huynh không tin AI và vẫn gọi điện tra khảo con.Value (Giá trị)Số giờ giảm tranh cãi/thángĐo lường định tính về hạnh phúc gia đình qua khảo sát.8. Bài học chính áp dụng cho DOMIN-HTừ case này, bài học sống còn cho Jimala là: Năng suất (xin tiền nhanh) không được hy sinh Chất lượng (không được báo cáo sai).Nếu AI của DOMIN-H đạt volume xử lý lớn nhưng chỉ cần 1% "án oan" (AI báo con đi bar trong khi con đi mua sách), hệ thống sẽ bị sinh viên tẩy chay ngay lập tức, dẫn đến sập toàn bộ mô hình kinh doanh (Churn rate 100%). Vì vậy, Dashboard của cậu phải ưu tiên đo lường độ chính xác của AI song song với doanh thu.9. Kết luậnVới DOMIN-H Family, metric mạnh nhất không phải là "bao nhiêu tiền đã được chuyển", mà là "bao nhiêu sự lo âu đã được giải tỏa" mà không gây tổn thương đến mối quan hệ cha mẹ - con cái. Mọi rủi ro kỹ thuật (như GCP sập hay API tăng giá) đều có thể xử lý, nhưng rủi ro "mất niềm tin" là rủi ro gây tử vong (Kill Zone) cho startup này.
+# Case Evidence Matrix — DOMIN-H Family (AI-Mediator)
+
+## 1. Thông tin case
+
+| Trường | Trả lời |
+| :--- | :--- |
+| **Case được phân tích** | DOMIN-H Family — Nền tảng AI-Mediator quản lý tài chính sinh viên |
+| **Loại case** | Case quản trị rủi ro & đo lường giá trị thực tế (ROI) |
+| **Nguồn chính** | Workshop 3 (OKR), Workshop 4 (Risk Map), Milestone 1 (Investor Package) |
+| **Lý do chọn case** | Đây là mô hình đặc thù "Người dùng (Sinh viên) không phải người trả tiền (Phụ huynh)". AI đóng vai trò làm trọng tài để xóa bỏ xung đột tài chính. |
+
+---
+
+## 2. AI được dùng trong workflow nào?
+
+AI tham gia trực tiếp vào luồng giao tiếp tài chính nhạy cảm giữa cha mẹ và con cái:
+* **Smart Request:** Sinh viên tạo yêu cầu xin tiền. AI hỗ trợ "làm đẹp" hồ sơ bằng cách liệt kê danh mục chi tiết.
+* **Audit & Verification:** AI dùng OCR quét hóa đơn, tự động đối chiếu giá thị trường để kiểm tra tính hợp lý.
+* **Mediation Report:** AI tổng hợp dữ liệu thành báo cáo tóm tắt "độ tin cậy" gửi cho phụ huynh.
+* **Duyệt chi:** Phụ huynh đọc báo cáo của AI và bấm "Duyệt 1 chạm" thay vì gọi điện tra khảo con cái.
+
+---
+
+## 3. Người dùng chính là ai?
+
+| Nhóm người dùng | Vai trò |
+| :--- | :--- |
+| **Sinh viên (User)** | Người tạo dữ liệu, cần xin tiền nhanh, minh bạch và không muốn bị tra khảo. |
+| **Phụ huynh (Payer)** | Người chi tiền, cần sự an tâm và kiểm soát nhưng ngại gây sứt mẻ tình cảm. |
+| **AI Lead (Jimala)** | Người đảm bảo AI không "hallucinate" tạo án oan cho sinh viên. |
+| **Nhà đầu tư (VCs)** | Quan tâm đến chỉ số tăng trưởng (MRR) và tỷ lệ giữ chân (Retention). |
+
+---
+
+## 4. Họ đo metric gì?
+
+| Metric | Loại metric | Ý nghĩa |
+| :--- | :--- | :--- |
+| **Tỷ lệ Smart Request qua App** | Activation / Habit | Sinh viên có từ bỏ Zalo để dùng App xin tiền không. |
+| **Doanh thu định kỳ (MRR)** | Value / Monetization | Phụ huynh có sẵn sàng trả 99k/tháng cho sự an tâm không. |
+| **Tỷ lệ giữ chân tháng thứ 2 (M2)** | Retention / Trust | Sản phẩm có thực sự giúp gia đình bớt cãi vã lâu dài không. |
+| **Tỷ lệ thu hồi hóa đơn** | Quality | AI có đọc được 100% các loại hóa đơn mờ/nát không. |
+
+---
+
+## 5. Metric đó chứng minh được gì?
+
+Các chỉ số của DOMIN-H chứng minh được mô hình AI-Mediator có khả năng thay đổi thói quen xã hội.
+
+| Điều chứng minh được | Giải thích |
+| :--- | :--- |
+| **Product-Market Fit (PMF)** | Nếu đạt 500 phụ huynh trả phí đầu tiên, chứng tỏ "nỗi lo âu" là có thật và có thể kiếm tiền. |
+| **Sự hình thành thói quen** | Mốc 60% yêu cầu qua app cho thấy sinh viên thấy app có lợi (dễ xin tiền hơn). |
+| **Hiệu quả của AI** | Việc giảm thời gian duyệt chi chứng minh AI đã thay thế được các cuộc tra khảo kéo dài. |
+
+---
+
+## 6. Metric đó chưa chứng minh được gì?
+
+Tốc độ và doanh thu chưa phản ánh được "lòng tin" sâu sắc bên trong mối quan hệ gia đình.
+
+| Chưa chứng minh được | Vì sao |
+| :--- | :--- |
+| **Sự công bằng của AI** | AI có thể báo cáo sai (hallucination) khiến sinh viên bị mắng oan. |
+| **Hòa khí gia đình thật sự** | Phụ huynh có dùng app để "kiểm soát cực đoan" hơn không. |
+| **Độ bền của dữ liệu** | Sinh viên có tìm cách "hack" AI (Prompt Injection) để gian lận không. |
+
+---
+
+## 7. Thiếu metric nào?
+
+| Nhóm metric thiếu | Metric nên bổ sung | Lý do |
+| :--- | :--- | :--- |
+| **Quality (Chất lượng)** | Tỷ lệ "Án oan" (AI Error Rate) | Theo dõi số lần AI phân loại sai khiến sinh viên phản ứng. |
+| **Trust (Niềm tin)** | Student Sentiment Score | Sinh viên coi AI là "Đồng minh" hay "Gián điệp". |
+| **Risk (Rủi ro)** | Human Override Rate | Số lần phụ huynh không tin AI và vẫn gọi điện tra khảo con. |
+| **Value (Giá trị)** | Số giờ giảm tranh cãi/tháng | Đo lường định tính về hạnh phúc gia đình qua khảo sát. |
+
+---
+
+## 8. Bài học chính áp dụng cho DOMIN-H
+
+Từ case này, bài học sống còn cho Jimala là: **Năng suất (xin tiền nhanh) không được hy sinh Chất lượng (không được báo cáo sai).**
+
+Nếu AI của DOMIN-H đạt volume xử lý lớn nhưng chỉ cần 1% "án oan" (AI báo con đi bar trong khi con đi mua sách), hệ thống sẽ bị sinh viên tẩy chay ngay lập tức, dẫn đến sập toàn bộ mô hình kinh doanh (Churn rate 100%). Vì vậy, Dashboard của cậu phải ưu tiên đo lường độ chính xác của AI song song với doanh thu.
+
+---
+
+## 9. Kết luận
+
+Với DOMIN-H Family, metric mạnh nhất không phải là "bao nhiêu tiền đã được chuyển", mà là **"bao nhiêu sự lo âu đã được giải tỏa"** mà không gây tổn thương đến mối quan hệ cha mẹ - con cái. Mọi rủi ro kỹ thuật (như GCP sập hay API tăng giá) đều có thể xử lý, nhưng rủi ro "mất niềm tin" là rủi ro gây tử vong (Kill Zone) cho startup này.
